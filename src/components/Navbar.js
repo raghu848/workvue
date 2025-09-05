@@ -16,6 +16,9 @@ const Navbar = () => {
         </div>
         
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
+          <div className="nav-logo-mobile">
+            <h2>Workveu</h2>
+          </div>
           <a href="#home" className="nav-link" onClick={() => setIsMenuOpen(false)}>
             Home
           </a>
